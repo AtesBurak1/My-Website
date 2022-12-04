@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/Bootstrap_logo.svg.png" />
+    <title>My Website</title>
+    <!-- !Boostrap-5 link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- !Boostrap-5 İcons Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <!-- !Css Link -->
+    <link rel="stylesheet" href="Css/still.css" />
+  </head>
+  <body>
+    <!-- !Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-2 px-sm-5 fixed-top">
+      <div class="navbar-brand">Burak Ateş</div>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMobil"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMobil">
+        <ul class="navbar-nav ms-auto me-5 gap-3">
+          <li class="nav-item">
+            <a href="#home" class="nav-link btn-close-canvas home active"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link btn-close-canvas about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#work" class="nav-link btn-close-canvas work">Work</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- !Navbar End -->
+
+    <!-- !Header Start -->
+    <section
+      id="home"
+      class="d-flex flex-column align-items-center justify-content-center text-white position-relative"
+    >
+      <div class="header-bg position-absolute"></div>
+      <h1 class="h-text">I am Burak Ateş</h1>
+
+      <h1 class="header-animation-box">
+        <span
+          class="typewrite h-text"
+          data-period="1000"
+          data-words='["Computer Engineering Student","Competitive Programmer","Machine&Deep Learning","Curious about learning!"]'
+        ></span>
+        <span class="h-animation"> I</span>
+      </h1>
+    </section>
+
+    <!-- !Header End -->
+
+    <!-- !About Start -->
+
+    <section id="about" class="py-5">
+      <div class="about-me-card row col-lg-10 bg-white mx-auto p-2 pt-5">
+        <div class="profile-card col-xl-6">
+          <div class="p-card-box d-lg-flex">
+            <img
+              src="img/burak-foto.jpg"
+              alt=""
+              class="rounded-3 me-5 mb-4 mb-lg-0"
+              style="width: 150px; height: 155px"
+            />
+            <div
+              class="p-card-content d-flex flex-column justify-content-center ms-lg-5"
+            >
+              <p><span class="fw-bold">Name:</span> Burak Ateş</p>
+              <p><span class="fw-bold">Profile:</span> Copmuter Engineering Student</p>
+              <p><span class="fw-bold">Email:</span> burakates2011@hotmail.com</p>
+              <p><span class="fw-bold">Phone:</span> 555-555-55-55</p>
+            </div>
+          </div>
+          <div class="me-skill mt-3 mt-lg5">
+            <h4>Skill</h4>
+
+            <p class="mb-2">C++ %90</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+              ></div>
+            </div>
+			<p class="mb-2">Competitive Programming %85</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 85%"
+              ></div>
+            </div>
+			<p class="mb-2">C %80</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+              ></div>
+            </div>
+			<p class="mb-2">Python %75</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+              ></div>
+            </div>
+			<p class="mt-2 mb-2">Machine & Deep Learning %70</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+              ></div>
+            </div>
+			<p class="mt-2 mb-2">Javascript %70</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+              ></div>
+            </div>
+            <p class="mt-2 mb-2">Html & Css %45</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 45%"
+              ></div>
+            </div>
+            <p class="mt-2 mb-2">Java %40</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 40%"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-me-text col-xl-6">
+          <h2 class="a-title mt-5 mt-lg-0 mb-5">About me</h2>
+          <p class="a-text">
+              Hi! I am Burak. I am student as computer engineer in Departmant of Engineering at Çankaya
+              University. I am usually do search, and improve my skills. I interested in Competitive
+              Programming, Machine&Deep Learning with python, creating Algorithms, OOP structured designs.
+              You can see which languages I am using left side of the this text. Still learning a lot of
+              new things, will be too. You can contact me via e-mail or with the informations which are
+              in footbar of the page.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- !About End -->
+
+    <!-- !Count Up Start-->
+    <div class="s-datas-container row m-0">
+      <div class="bg-cover-blue"></div>
+      <div
+        class="s-data-box col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1><i class="bi bi-check"></i></h1>
+        <div class="num" data-count="4">0</div>
+        <p>CERTIFICATE GAINED</p>
+      </div>
+      <div
+        class="s-data-box col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1><i class="bi bi-journal-richtext"></i></h1>
+        <div class="num" data-count="2">0</div>
+        <p>YEARS OF STUDENT</p>
+      </div>
+      <div
+        class="s-data-box col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1><i class="bi bi-award"></i></h1>
+        <div class="num" data-count="18">0</div>
+        <p>PROJECTS</p>
+      </div>
+      <div
+        class="s-data-box col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1><i class="bi bi-people"></i></h1>
+        <div class="num" data-count="20">0</div>
+        <p>YEARS OLD</p>
+      </div>
+    </div>
+    <!-- !Count Up End-->
+    <!-- !Work Start-->
+    <section id="work" class="pb-5">
+      <h1 class="text-center pt-5">PORTFOLIO</h1>
+      <h5 class="text-center w-subTitle mb-5">Some project I have done. You can see detailed on my GitHub.</h5>
+      <div class="w-box-container position-relative row p-0 m-0">
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork1"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-1.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">Stock Prediction</h4>
+              <p class="text-muted">
+                <span class="text-info">Machine-Learning</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork2"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-2.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">Competitive Problem Solutions</h4>
+              <p class="text-muted">
+                <span class="text-info">Competitive-Programming</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork3"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-3.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">MiniGames</h4>
+              <p class="text-muted">
+                <span class="text-info">Python</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork4"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-4.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">My Website</h4>
+              <p class="text-muted">
+                <span class="text-info">Web Design</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork5"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-5.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">Image Processing</h4>
+              <p class="text-muted">
+                <span class="text-info">Javascript</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-box col-sm-6 col-lg-4 p-2">
+          <div class="card p-0 position-relative">
+            <a
+              class=""
+              data-bs-toggle="offcanvas"
+              href="#offcanvasWork6"
+              role="button"
+            >
+              <img class="img-fluid card-img" src="img/work-6.jpg" alt="" />
+            </a>
+            <div class="card-body">
+              <h4 class="mt-3">Hero Of The Arena</h4>
+              <p class="text-muted">
+                <span class="text-info">Sfml-C++ Game</span>
+              </p>
+              <a href="#" class="position-absolute end-0 bottom-0 m-3 text-info"
+                ><i class="bi bi-plus-circle h1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- Card offcanvas -->
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork1"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-1.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork2"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-2.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork3"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-3.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork4"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-4.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork5"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-5.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="offcanvas overflow-hidden w-75 h-75"
+          tabindex="-1"
+          id="offcanvasWork6"
+        >
+          <div
+            class="offcanvas-body p-0 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <img class="img-fluid m-0" src="img/work-6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !Work End-->
+
+    <!-- !Divider Start -->
+    <section
+      id="divider"
+      class="position-relative d-flex flex-column justify-content-center align-items-center"
+      style="background-image: url(img/overlay-bg.jpg)"
+    >
+      <div class="overlay-filter position-absolute"></div>
+      <div class="d-content">
+        <img src="img/burak-foto.jpg" alt="" />
+        <h1>Burak Ateş</h1>
+        <p>
+          Contact with me via links below!
+        </p>
+        <a href="https://github.com/AtesBurak1" class="social-media fs-2" ><i class="bi bi-github fs-3"></i></a>
+        <a href="https://www.linkedin.com/in/burak-ate%C5%9F-b102b020b/" class="social-media fs-2"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/BuraakkAtes" class="social-media fs-2"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/burakkk.ates/" class="social-media fs-2"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/burak.ates.56863221" class="social-media fs-2"><i class="bi bi-facebook"></i></a>
+      </div>
+    </section>
+    <!-- !Divider End -->
+
+    <!-- !Footer Start -->
+
+    <div class="footer text-center text-white py-3">
+      © Copyright DevFolio. All Rights Reserved
+      <br />
+      Designed by BootstrapMade
+      <br/>
+      Updated by me
+    </div>
+    <!-- !Footer End -->
+
+    <!--  !Boostrap-5 Js Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- !Js Link -->
+    <script src="Js/All.js"></script>
+  </body>
+</html>
